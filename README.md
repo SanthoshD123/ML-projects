@@ -1,64 +1,94 @@
-# Machine Learning Projects Repository
+# ML-Projects Repository
 
-A collection of various machine learning projects, implementations, and tutorials covering a wide range of ML techniques and applications.
+A comprehensive collection of machine learning projects, implementations, and tutorials covering various ML techniques and applications.
 
 ## Repository Contents
 
 ### Classification Projects
-- **Breast Cancer Prediction** (`.py` and `.ipynb` versions)
-  - Implementations using different approaches including Neural Networks
-  - Uses breast cancer dataset (available in repository)
-- **Diabetes Prediction**
-  - Predicts diabetes using classification algorithms
-  - Created in Google Colaboratory
+* **Breast Cancer Prediction** 
+   * `Breast cancer prediction.py` - Python implementation
+   * `Breast_Cancer_Classification_with_NN.ipynb` - Neural Network approach
+   * Uses `breast cancer dataset.csv`
+* **Diabetes Prediction**
+   * `Diabetes_Prediction.ipynb` - Diabetes classification model
+   * Uses `diabetes.csv` dataset
 
 ### Regression Projects
-- **Simple Linear Regression**
-- **Multiple Linear Regression** (including BONUS implementation)
-- **Polynomial Regression**
-- **Support Vector Regression**
+* **Simple Linear Regression** (`simple_linear_regression.ipynb`)
+* **Multiple Linear Regression** (`multiple_linear_regression.ipynb`)
+* **BONUS Multiple Linear Regression** (`BONUS_multiple_linear_regression.ipynb`)
+* **Polynomial Regression** (`polynomial_regression.ipynb`)
+* **Support Vector Regression** (`support_vector_regression.ipynb`)
 
 ### Clustering Projects
-- **Bank Customer Segmentation**
-  - Customer segmentation solution for banking data
+* **Bank Customer Segmentation** (`Perform Bank Customers Segmentation - Solution`)
 
 ### Natural Language Processing & Computer Vision
-- **Speech Emotion Recognition**
-- **Flower Detection**
+* **Speech Emotion Recognition** (`speech_emotion.ipynb`)
+* **Flower Detection** (`flower detection.ipynb`)
 
 ### Recommendation Systems
-- **Movie Recommendation Engine**
+* **Movie Recommendation Engine** (`Movie Rec.ipynb`)
+
+### Multi-Armed Bandits
+* **Bandit Algorithms Implementation** (`Multi-Armed Bandits.py`)
+   * Epsilon-Greedy, UCB, Thompson Sampling, and Gradient Bandit algorithms
+   * Comparison framework with visualization
 
 ### Data Preprocessing
-- **Handling Missing Data**
-  - Techniques for dealing with missing values in datasets
-- **Encoding Categorical Data**
-  - Methods for converting categorical variables to numerical format
-- **Data Preprocessing Tools**
-  - Multiple notebooks with various preprocessing techniques
+* **Handling Missing Data** (`Handling Missing Data in a Dataset for Machine Learning.py`)
+* **Encoding Categorical Data** (`Encoding Categorical Data for Machine Learning.py`)
+* **Data Preprocessing Tools** 
+   * `data_preprocessing_tools.ipynb`
+   * `data_preprocessing_tools (1).ipynb`
+   * `data_preprocessing_tools (2).ipynb`
 
 ### Other ML Techniques
-- **Kernel SVM**
-- **Logistic Regression**
+* **Kernel SVM** (`kernel_svm.ipynb`)
+* **Logistic Regression** (`Simple logistic regression.py`)
 
-## Datasets
-- Breast cancer dataset (CSV)
-- Diabetes dataset (CSV)
-- Quikr car dataset (CSV)
+### Data Analysis
+* **Quikr Car Analysis** (`Quikr_Analysis.ipynb`) - Uses `quikr_car.csv`
+
+## Datasets Included
+* `breast cancer dataset.csv` - Breast cancer classification data
+* `diabetes.csv` - Diabetes prediction dataset  
+* `quikr_car.csv` - Car price analysis data
 
 ## Tools & Technologies Used
-- Python
-- Jupyter Notebooks
-- Google Colaboratory
-- Popular ML libraries (Scikit-learn, TensorFlow, etc.)
+* Python
+* Jupyter Notebooks
+* Google Colaboratory
+* Machine Learning Libraries: Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib
 
 ## Getting Started
-1. Clone this repository
-2. Install the required dependencies
-3. Explore the notebooks and scripts based on your area of interest
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/SanthoshD123/ML-projects.git
+   cd ML-projects
+   ```
+
+2. **Install required dependencies**
+   ```bash
+   pip install numpy pandas matplotlib scikit-learn tensorflow jupyter
+   ```
+
+3. **Run the notebooks** in Jupyter or Google Colab based on your preference
+
+## Recent Updates
+* ✅ **Multi-Armed Bandits Implementation** - Added comprehensive bandit algorithms with comparison framework
+* 🔄 **Updated README** - Improved documentation and project structure
 
 ## License
-This repository contains notebooks and code examples created while learning machine learning. Shared for educational purposes only.
+This repository contains educational machine learning projects. Shared for learning and reference purposes.
 
-## Contribution
-Feel free to contribute to this repository by adding new implementations or improving existing ones.
+## Contributing
+Contributions are welcome! Feel free to:
+- Add new ML implementations
+- Improve existing algorithms
+- Fix bugs or optimize code
+- Enhance documentation
+
+## Contact
+GitHub: [@SanthoshD123](https://github.com/SanthoshD123)
