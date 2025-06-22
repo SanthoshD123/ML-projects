@@ -1,94 +1,140 @@
-# ML-Projects Repository
+# ML Projects Repository
 
-A comprehensive collection of machine learning projects, implementations, and tutorials covering various ML techniques and applications.
+Welcome to my Machine Learning projects repository! This collection showcases various ML algorithms, techniques, and applications implemented in Python.
 
-## Repository Contents
+## 📋 Table of Contents
 
-### Classification Projects
-* **Breast Cancer Prediction** 
-   * `Breast cancer prediction.py` - Python implementation
-   * `Breast_Cancer_Classification_with_NN.ipynb` - Neural Network approach
-   * Uses `breast cancer dataset.csv`
-* **Diabetes Prediction**
-   * `Diabetes_Prediction.ipynb` - Diabetes classification model
-   * Uses `diabetes.csv` dataset
+- [Recent Additions](#recent-additions)
+- [Classification Projects](#classification-projects)
+- [Regression Projects](#regression-projects)
+- [Data Preprocessing](#data-preprocessing)
+- [Advanced Algorithms](#advanced-algorithms)
+- [Data Analysis](#data-analysis)
+- [Datasets](#datasets)
 
-### Regression Projects
-* **Simple Linear Regression** (`simple_linear_regression.ipynb`)
-* **Multiple Linear Regression** (`multiple_linear_regression.ipynb`)
-* **BONUS Multiple Linear Regression** (`BONUS_multiple_linear_regression.ipynb`)
-* **Polynomial Regression** (`polynomial_regression.ipynb`)
-* **Support Vector Regression** (`support_vector_regression.ipynb`)
+## 🆕 Recent Additions
 
-### Clustering Projects
-* **Bank Customer Segmentation** (`Perform Bank Customers Segmentation - Solution`)
+### **NEW** - Advanced ML Techniques (Added in last month)
+- **`tsne_visualization.py`** - t-SNE dimensionality reduction and visualization techniques
+- **`som_customer_segmentation.py`** - Self-Organizing Map for customer segmentation
+- **`knn_kdtree.py`** - K-Nearest Neighbors implementation using KD-Tree for efficient search
+- **`ann_faiss_example.py`** - Approximate Nearest Neighbors using Facebook's FAISS library
+- **`Multi-Armed Bandits.py`** - Implementation of epsilon-greedy, UCB, and Thompson sampling algorithms
 
-### Natural Language Processing & Computer Vision
-* **Speech Emotion Recognition** (`speech_emotion.ipynb`)
-* **Flower Detection** (`flower detection.ipynb`)
+## 🎯 Classification Projects
+
+### Medical Diagnosis
+- **`Breast cancer prediction.py`** - Breast cancer classification using machine learning
+- **`Breast_Cancer_Classification_with_NN.ipynb`** - Neural network approach for breast cancer detection
+- **`Diabetes_Prediction.ipynb`** - Diabetes prediction model
+
+### Computer Vision
+- **`flower detection.ipynb`** - Flower species classification using image processing
+
+## 📈 Regression Projects
+
+- **`simple_linear_regression.ipynb`** - Basic linear regression implementation
+- **`multiple_linear_regression.ipynb`** - Multiple variable regression analysis
+- **`BONUS_multiple_linear_regression.ipynb`** - Enhanced multiple linear regression with advanced techniques
+- **`polynomial_regression.ipynb`** - Non-linear relationship modeling
+- **`support_vector_regression.ipynb`** - SVR for regression tasks
+- **`Simple logistic regression.py`** - Binary classification using logistic regression
+
+## 🛠️ Data Preprocessing
+
+- **`data_preprocessing_tools.ipynb`** (Multiple versions) - Comprehensive data cleaning and preparation
+- **`Handling Missing Data in a Dataset for Machine Learning.py`** - Techniques for dealing with missing values
+- **`Encoding Categorical Data for Machine Learning.py`** - Methods for encoding categorical variables
+
+## 🧠 Advanced Algorithms
+
+### Support Vector Machines
+- **`kernel_svm.ipynb`** - SVM with different kernel functions
+
+### Clustering & Segmentation
+- **`som_customer_segmentation.py`** - Advanced customer segmentation using SOM
+- **`Perform Bank Customers Segmentation - Solution`** - Banking customer analysis
+
+### Optimization & Reinforcement Learning
+- **`Multi-Armed Bandits.py`** - Bandit algorithms for optimization problems
+
+### Nearest Neighbors & Search
+- **`knn_kdtree.py`** - Efficient KNN using KD-Tree data structure
+- **`ann_faiss_example.py`** - High-performance approximate nearest neighbor search
+
+## 📊 Data Analysis Projects
 
 ### Recommendation Systems
-* **Movie Recommendation Engine** (`Movie Rec.ipynb`)
+- **`Movie Rec.ipynb`** - Movie recommendation system
 
-### Multi-Armed Bandits
-* **Bandit Algorithms Implementation** (`Multi-Armed Bandits.py`)
-   * Epsilon-Greedy, UCB, Thompson Sampling, and Gradient Bandit algorithms
-   * Comparison framework with visualization
+### Market Analysis
+- **`Quikr_Analysis.ipynb`** - Analysis of Quikr marketplace data
 
-### Data Preprocessing
-* **Handling Missing Data** (`Handling Missing Data in a Dataset for Machine Learning.py`)
-* **Encoding Categorical Data** (`Encoding Categorical Data for Machine Learning.py`)
-* **Data Preprocessing Tools** 
-   * `data_preprocessing_tools.ipynb`
-   * `data_preprocessing_tools (1).ipynb`
-   * `data_preprocessing_tools (2).ipynb`
+### Audio Processing
+- **`speech_emotion.ipynb`** - Speech emotion recognition
 
-### Other ML Techniques
-* **Kernel SVM** (`kernel_svm.ipynb`)
-* **Logistic Regression** (`Simple logistic regression.py`)
+### Visualization
+- **`tsne_visualization.py`** - Advanced dimensionality reduction visualization
 
-### Data Analysis
-* **Quikr Car Analysis** (`Quikr_Analysis.ipynb`) - Uses `quikr_car.csv`
+## 📁 Datasets
 
-## Datasets Included
-* `breast cancer dataset.csv` - Breast cancer classification data
-* `diabetes.csv` - Diabetes prediction dataset  
-* `quikr_car.csv` - Car price analysis data
+- **`breast cancer dataset.csv`** - Breast cancer diagnosis data
+- **`diabetes.csv`** - Diabetes patient records
+- **`quikr_car.csv`** - Car marketplace data from Quikr
 
-## Tools & Technologies Used
-* Python
-* Jupyter Notebooks
-* Google Colaboratory
-* Machine Learning Libraries: Scikit-learn, TensorFlow, Pandas, NumPy, Matplotlib
+## 🚀 Getting Started
 
-## Getting Started
+1. Clone the repository:
+```bash
+git clone https://github.com/SanthoshD123/ML-projects.git
+```
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/SanthoshD123/ML-projects.git
-   cd ML-projects
-   ```
+2. Install required dependencies:
+```bash
+pip install numpy pandas scikit-learn matplotlib seaborn jupyter
+pip install faiss-cpu  # For ANN examples
+pip install tensorflow keras  # For neural network projects
+```
 
-2. **Install required dependencies**
-   ```bash
-   pip install numpy pandas matplotlib scikit-learn tensorflow jupyter
-   ```
+3. Navigate to any project and run the Jupyter notebooks or Python scripts.
 
-3. **Run the notebooks** in Jupyter or Google Colab based on your preference
+## 📝 Project Structure
 
-## Recent Updates
-* ✅ **Multi-Armed Bandits Implementation** - Added comprehensive bandit algorithms with comparison framework
-* 🔄 **Updated README** - Improved documentation and project structure
+Each project includes:
+- Implementation of the algorithm/technique
+- Data preprocessing steps
+- Model training and evaluation
+- Visualization of results
+- Performance metrics
 
-## License
-This repository contains educational machine learning projects. Shared for learning and reference purposes.
+## 🛠️ Technologies Used
 
-## Contributing
-Contributions are welcome! Feel free to:
-- Add new ML implementations
-- Improve existing algorithms
-- Fix bugs or optimize code
-- Enhance documentation
+- **Python** - Primary programming language
+- **Scikit-learn** - Machine learning library
+- **Pandas & NumPy** - Data manipulation and analysis
+- **Matplotlib & Seaborn** - Data visualization
+- **TensorFlow/Keras** - Deep learning frameworks
+- **FAISS** - Efficient similarity search
+- **Jupyter Notebook** - Interactive development environment
 
-## Contact
-GitHub: [@SanthoshD123](https://github.com/SanthoshD123)
+## 📈 Recent Updates
+
+- **Yesterday**: Added t-SNE visualization capabilities
+- **2 days ago**: Implemented SOM for customer segmentation
+- **3 days ago**: Added efficient KNN with KD-Tree
+- **4 days ago**: Integrated FAISS for approximate nearest neighbors
+- **2 weeks ago**: Implemented multi-armed bandit algorithms
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for improvements or additional ML projects!
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+⭐ **Star this repository if you find it helpful!**
+
+*Last updated: June 2025*
