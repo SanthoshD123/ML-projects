@@ -275,14 +275,9 @@ I welcome contributions! Here's how you can help:
 ## 📞 Support & Contact
 
 ### Get Help
-- 📧 **Email**: [Your email here]
+- 📧 **Email**: santhosh.damu78@gmail.com
 - 💬 **Issues**: [Create an issue](https://github.com/SanthoshD123/ML-projects/issues)
 - 📚 **Wiki**: Check the repository wiki for detailed guides
-
-### Connect With Me
-- 🐙 **GitHub**: [@SanthoshD123](https://github.com/SanthoshD123)
-- 💼 **LinkedIn**: [Your LinkedIn profile]
-- 🐦 **Twitter**: [Your Twitter handle]
 
 ---
 
