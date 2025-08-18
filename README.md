@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202025-brightgreen.svg)]()
 
-Welcome to my comprehensive Machine Learning projects repository! This collection demonstrates various ML algorithms, advanced techniques, and real-world applications implemented in Python, ranging from fundamental concepts to cutting-edge algorithms.
+Welcome to my comprehensive Machine Learning projects repository! This collection demonstrates various ML algorithms, advanced techniques, and real-world applications implemented in Python, ranging from fundamental concepts to algorithms.
 
 ## 📊 Repository Overview
 
